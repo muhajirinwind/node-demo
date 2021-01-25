@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/muhajirin/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/bin:/home/muhajirin/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/bin:/usr/local/bin:/usr/bin:/var/lib/snapd/snap/bin:/usr/local/sbin:/usr/sbin:/home/muhajirin/.local/bin:/home/muhajirin/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.23.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/muhajirin/workspace/node.js/demo/node_modules/send/node_modules/http-errors'
+
+npm manifest: 
+  {
+    "name": "nodejs-image-demo",
+    "version": "1.0.0",
+    "description": "nodejs image demo",
+    "author": "Muhajirin <muhajirin@homecredit.co.id>",
+    "license": "MIT",
+    "main": "app.js",
+    "keywords": [
+      "nodejs",
+      "bootstrap",
+      "express"
+    ],
+    "dependencies": {
+      "express": "^4.16.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
